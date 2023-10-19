@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+  background-color: #f0f5fc !important;
+}  
+.page-wrapp{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+/*   padding: 20px; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+header {
+  padding: 30px 20px;
+  background-color: #14233c;
+  display: flex;
+}
+ 
+header h2 {
+  color: #f0f5fc;
+  font-weight: 800 !important;
+  font-size: 35px !important;
+} 
+.jp-Notebook .jp-Cell{
+/* 	text-align: center; */
+}
+.header-title h1 {
+  font-weight: 800 !important;
+  color: #f0f5fc !important;
+  font-size: 35px !important;
+  line-height: 40px !important;
+}
+.jp-Notebook{
+	padding: 0 !important;
+}
+.jp-RenderedHTMLCommon h3 {
+  font-size: var(--jp-content-font-size3);
+  padding: 20px;
+} 
+.menu {
+  top: 0;
+  position: fixed;
+  background-color: #14233c;
+  height: 100%;
+  text-align: center;
+  z-index: 999;
+  padding: 20px;
+  left: 10%;
+} 
+.menu nav li{
+  display: block;
+  margin-bottom: 20px;
+}   
+.menu nav li a{
+  color: #000 !important;
+  background-color: #fff;
+  margin-right: 15px;
+  padding: 13px 15px;
+  font-weight: 800;
+  border-radius: 10px;
+  display: block;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+} 
+.menu nav li a:hover{
+	text-decoration: none !important;
+} 
+.heder-lef{
+  width: 80%;
+  margin-left: auto;
+}
+.menu nav {
+  margin-top: 260px;
+} 
+section {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+  background-color: #f0f5fc;
+  width: 70%;
+  margin-left: auto;
+}
+
+section h2 {
+  font-weight: 800 !important;
+}
+section p {
+  font-size: 17px;
+  line-height: 30px;
+}
+.js-plotly-plot .plotly .main-svg {
+  left: 60% !important;
+}
